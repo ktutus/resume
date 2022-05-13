@@ -24,6 +24,8 @@ header a{
 }
 nav{
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .link-nav {
     top:10px;
@@ -31,12 +33,10 @@ nav{
     font-size: x-large;
     color: #9F0013;
     text-decoration: none;
-    border-right:5px solid #41046F ;
-    border-bottom:5px solid #41046F ;
-    border-left:5px solid #C4F83E;
-    border-top:5px solid #C4F83E ;
+  
     margin: 10px;
     text-align: center;
+    
  
     
 }
@@ -59,4 +59,10 @@ main img{
 main a{
     text-decoration: none;
     color:#A21425;
+}
+.link-nav:hover{
+      border-right:5px solid #41046F ;
+    border-bottom:5px solid #41046F ;
+    border-left:5px solid #C4F83E;
+    border-top:5px solid #C4F83E ;
 }
