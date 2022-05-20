@@ -1,25 +1,26 @@
 body {
     font-family: sans-serif;
-    background-color: #dfc9f0ce;
+    border-collapse: ;
+   
 }
 header{
     background-color:#C30083 ;
-   height: 50px;
+   height: 49px;
    width: 100%;
 }
 header a{
-    left: 10px;
+    
     top:10px;
     position: relative;
     font-size: x-large;
     color: #AEF100;
     text-decoration: none;
+    background-color:#c30083 ;
+    border:1px solid  #C30083 ;
+    padding: 9px;
 }
 .link-header:hover{
-    border-right:5px solid #9F0013 ;
-    border-bottom:5px solid #9F0013 ;
-    border-left:5px solid #41046F;
-    border-top:5px solid #41046F ;
+background-color:#8f005f ; 
  
 }
 nav{
@@ -33,13 +34,15 @@ nav{
     font-size: x-large;
     color: #9F0013;
     text-decoration: none;
-  
-    margin: 10px;
+   border: 5px solid #c30083;
+    margin: 20px;
     text-align: center;
-    
+    border-radius: 7px;
+    background-color: white;
+
+}
  
     
-}
 h1{
     text-align: center;
     color: #41046F;
@@ -61,8 +64,7 @@ main a{
     color:#A21425;
 }
 .link-nav:hover{
-      border-right:5px solid #41046F ;
-    border-bottom:5px solid #41046F ;
-    border-left:5px solid #C4F83E;
-    border-top:5px solid #C4F83E ;
+background-color: rgba(177, 177, 177, 0.48);
+transition: 1s;
+transform:  scaleX(1.2) scaleY(1.2) scaleZ(1.2);
 }
